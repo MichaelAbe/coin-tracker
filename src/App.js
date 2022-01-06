@@ -6,6 +6,9 @@ import { Layout, Typography, Space } from 'antd'
 const App = () => {
     return (
         <div className='app'>
+
+            <h1>Coin-Tracker</h1>
+
             <div className='navbar'>
 
             </div>
