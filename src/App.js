@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
 import { Layout, Typography, Space } from 'antd'
+import { Navbar } from './components'
 
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
             <h1>Coin-Tracker</h1>
 
             <div className='navbar'>
-
+                <Navbar />
             </div>
 
             <div className='main'>
