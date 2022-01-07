@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className='nav-container'>
             <div className='logo-container'>
                 <Avatar src={ icon } size='large'></Avatar>
-                {/* <Typography.Title level={2} className='logo'> 
+                <Typography.Title level={2} className='logo'> 
                     <Link to='/'>Coin-Tracker</Link>
-                </Typography.Title> */}
+                </Typography.Title>
                 {/* <Button className='menu-control-container'>
 
                 </Button> */}
